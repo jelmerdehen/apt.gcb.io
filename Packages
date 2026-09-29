@@ -15,3 +15,20 @@ MD5sum: 8a5e664f3801d41bee54c0f10c4e97ac
 SHA1: de60d384916bc835bb0b79c2064e97771bb4f1d2
 SHA256: c209f169b4142744a15a5ae3a09ee74c2d1f5decc9550fe8c82357db99eef961
 
+Package: io.gcb.substrate-logger
+Name: Substrate Logger
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: GCB Platform Operations <ops@gcb.io>
+Author: GCB Platform Team
+Section: System
+Priority: optional
+Homepage: https://logging.gcb.io
+Description: GCB Substrate Mobile Telemetry Daemon
+ Continuous untethered streaming telemetry, oslog capture, hardware vitals and diagnostics for iOS rootless environments.
+Filename: debs/io.gcb.substrate-logger_1.1.0_iphoneos-arm64.deb
+Size: 2974394
+MD5sum: 254ff5b0d0020c720a9a1e31ac15c6e0
+SHA1: 591b83783ef1442fe9dc481c7664611074db5d5b
+SHA256: 7d84b1162d672f5410251ec2a39fd6240b79b650eea22d2e06254eef5eab7810
+

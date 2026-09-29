@@ -3,22 +3,22 @@ Label: GCB
 Suite: stable
 Version: 1.0
 Codename: ios
-Date: Tue, 29 Sep 2026 20:36:45 -0000
+Date: Tue, 29 Sep 2026 21:47:53 -0000
 Architectures: iphoneos-arm64
 Components: main
 Description: GCB Mobile Telemetry and Diagnostics Repository
 MD5Sum:
- 65cc23cb310fc7ac43cb2800f9101726 656 Packages
- df903da16dc232b94def82783f510648 459 Packages.gz
- 365d5bc98c83a3cff4265b0978e8170c 540 Packages.xz
- 1dff7c1931436d096537b179a638f306 453 Packages.zst
+ 02e44b151ad91f80caaf7bd80739594f 1312 Packages
+ 8287bbcf1404ee8682f5818d0d789470 578 Packages.gz
+ d1e554b53e221a84c11e149d6de059fc 644 Packages.xz
+ 86ccb0f9607733026e0a77eddf2e292f 558 Packages.zst
 SHA1:
- 2ad4e22e1f1ea96a67458d2f37d7d3eaacc3e91e 656 Packages
- dc1be8968fda3a670e29d078da1e83a2d61a3ca7 459 Packages.gz
- a65b4457f62b6ed2528e75ca8989980dc6b7c3e7 540 Packages.xz
- d64cd5d4c98cd1748069ff938b7f1753f84f5e59 453 Packages.zst
+ 0e1724c0a7bd627584670886656061797a1438a6 1312 Packages
+ cb29d72a14ef60bb632fb2410d14deb459763326 578 Packages.gz
+ 7dc2c9d99fea13b49b548d62c99d0d6e5147256a 644 Packages.xz
+ 98fb617aa73ff7ef20d389079c28edccb35f742e 558 Packages.zst
 SHA256:
- 6512f53d804a66726c1dfdf905e72e76db5362b8607e3f9f4925a89811be1ac1 656 Packages
- bde9545c3fb0d0e55727d6956ff5d9b0388f546eed0dba87f15dcc4d801bf463 459 Packages.gz
- d0298c75bfecd7a11e82a1636b6e6a6888af6f211b5731d211ffebf2eff5e41a 540 Packages.xz
- fa7a2b63d9f8df569f3ee2a8547a3a8461aa0dac71827911301f6012e5398630 453 Packages.zst
+ 5aa19e9392df10be758f50be8534f3e6a9c1d6a3e3ccc3c05525399f1ff5fa66 1312 Packages
+ 9390eca17c4c727410ed03cd8924407a2568e3379b1fd21a5d68cef08643572a 578 Packages.gz
+ de902f7aa1feaa2fcbcda5dc5855fbde5c9f5778287a615f3dfe203458acba30 644 Packages.xz
+ 13349b684ac8fca44a7b1122d5b10c709ef7e11527efa95bd4f739545252242f 558 Packages.zst
