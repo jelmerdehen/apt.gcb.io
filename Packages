@@ -10,8 +10,8 @@ Homepage: https://logging.gcb.io
 Description: GCB Substrate Mobile Telemetry Daemon
  Continuous untethered streaming telemetry, oslog capture, hardware vitals and diagnostics for iOS rootless environments.
 Filename: debs/io.gcb.substrate-logger_1.0.0_iphoneos-arm64.deb
-Size: 2972056
-MD5sum: 8314b5b38313153ab93acb439e56e84a
-SHA1: 54d7e85f29f5ae006a8d674fb2199cc1c29d1c39
-SHA256: 49d523a6b30fb45ca4783214b4ec60d23e2256276101a2777ad5cabda8a9595f
+Size: 2972164
+MD5sum: 8a5e664f3801d41bee54c0f10c4e97ac
+SHA1: de60d384916bc835bb0b79c2064e97771bb4f1d2
+SHA256: c209f169b4142744a15a5ae3a09ee74c2d1f5decc9550fe8c82357db99eef961
 
