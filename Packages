@@ -1,0 +1,17 @@
+Package: io.gcb.substrate-logger
+Name: Substrate Logger
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: GCB Platform Operations <ops@gcb.io>
+Author: GCB Platform Team
+Section: System
+Priority: optional
+Homepage: https://logging.gcb.io
+Description: GCB Substrate Mobile Telemetry Daemon
+ Continuous untethered streaming telemetry, oslog capture, hardware vitals and diagnostics for iOS rootless environments.
+Filename: debs/io.gcb.substrate-logger_1.0.0_iphoneos-arm64.deb
+Size: 2972168
+MD5sum: a31a297cdab3ce4f32a45e997a735b70
+SHA1: 0458efad633734458a64c8019389b4b5dc9101ad
+SHA256: 6858d1e42488808662a04a160b722d08d84025d958ed88c33f4a217c6cf49ae5
+

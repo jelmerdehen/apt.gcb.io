@@ -1,0 +1,12 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{300, 140}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://logging.gcb.io",
+      "title": "GCB Substrate Telemetry",
+      "package": "io.gcb.substrate-logger"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Origin: GCB Repository
+Label: GCB
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: GCB Mobile Telemetry and Diagnostics Repository
+MD5Sum:
+ 3801f950abea325b7a9ee5091f70ae90 656 Packages
+ 27642a2b89a39f70e5754c6401cc9745 461 Packages.gz
+ 71c74c65c176a1f32cd5cd6ba4ef6bd0 540 Packages.xz
+ 10c41180d0da290456511703564baa88 458 Packages.zst
+SHA1:
+ b9b93b291cc4e09f94ee3b3bc00ca6389a4cf987 656 Packages
+ f89279199bb25ab58e2fdaa455964719e59481e4 461 Packages.gz
+ 2c35b35a00a636c1478b02b481a91fed07988a68 540 Packages.xz
+ 5a9a47d6a244cccbf8ecbacc13cf03e09aaaa9dc 458 Packages.zst
+SHA256:
+ 6255ed1b71578d2e1ee517712c64a060cf7932cb141c9cbf761be158048c66f1 656 Packages
+ 4b6a66ef529a692a26c2fec392b5fb66ceb20e3abf39ceeab36e82cf0694c185 461 Packages.gz
+ 836b4ed3cd43ad7ff2aeb64c206230163a4cdb1e58107218cd9f667f76fc4085 540 Packages.xz
+ 974a93b9741e66fd07dabada38422e2ca7a4552d1578dcbb23b739187ce74dec 458 Packages.zst

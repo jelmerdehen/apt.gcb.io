@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCB APT Repository - apt.gcb.io</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.25);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem 1rem;
+    }
+    .container {
+      max-width: 680px;
+      width: 100%;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #fff, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+    .btn {
+      flex: 1;
+      min-width: 180px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.25rem;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-sileo {
+      background: #2cb5e8;
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(44, 181, 232, 0.35);
+    }
+    .btn-sileo:hover {
+      background: #1ca5d8;
+      transform: translateY(-1px);
+    }
+    .btn-zebra {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 4px 14px rgba(255, 255, 255, 0.2);
+    }
+    .btn-zebra:hover {
+      background: #e2e8f0;
+      transform: translateY(-1px);
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(12px);
+    }
+    .card h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .code-box {
+      background: #040711;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.85rem;
+      color: #38bdf8;
+      overflow-x: auto;
+      margin-bottom: 0.75rem;
+    }
+    .pkg-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .pkg-item:last-child { border-bottom: none; }
+    .pkg-name { font-weight: 600; color: #fff; }
+    .pkg-desc { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem; }
+    .pkg-ver {
+      font-family: ui-monospace, monospace;
+      font-size: 0.8rem;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="badge">Official GCB Repository</div>
+      <h1>apt.gcb.io</h1>
+      <p class="subtitle">Substrate Mobile Telemetry, Diagnostics &amp; Security Daemons for iOS Rootless Environments</p>
+    </div>
+
+    <div class="btn-group">
+      <a class="btn btn-sileo" href="sileo://source/https://apt.gcb.io">
+        <span>Add to Sileo</span>
+      </a>
+      <a class="btn btn-zebra" href="zbra://sources/add/https://apt.gcb.io">
+        <span>Add to Zebra</span>
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>Featured Packages (iphoneos-arm64)</h2>
+      <div class="pkg-item">
+        <div>
+          <div class="pkg-name">io.gcb.substrate-logger</div>
+          <div class="pkg-desc">Continuous untethered streaming telemetry, oslog capture, hardware vitals &amp; diagnostics</div>
+        </div>
+        <span class="pkg-ver">v1.0.0</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>CLI / APT Configuration</h2>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">Add source to /var/jb/etc/apt/sources.list.d/gcb.sources:</p>
+      <div class="code-box">Types: deb
+URIs: https://apt.gcb.io/
+Suites: ./
+Components:</div>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">Or via classic sources.list:</p>
+      <div class="code-box">deb [trusted=yes] https://apt.gcb.io/ ./</div>
+      <div class="code-box">apt update &amp;&amp; apt install io.gcb.substrate-logger</div>
+    </div>
+
+    <footer>
+      &copy; 2026 GCB Global Infrastructure. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
