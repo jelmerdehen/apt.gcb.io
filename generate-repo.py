@@ -92,7 +92,7 @@ def main():
         sha256_lines.append(f" {sha256} {size} {filename}")
 
     import email.utils
-    date_str = email.utils.formatdate(usegmt=True)
+    date_str = email.utils.formatdate(usegmt=False)
 
     release_content = (
         "Origin: GCB Repository\n"
