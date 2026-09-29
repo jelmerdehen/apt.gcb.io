@@ -91,12 +91,16 @@ def main():
         sha1_lines.append(f" {sha1} {size} {filename}")
         sha256_lines.append(f" {sha256} {size} {filename}")
 
+    import email.utils
+    date_str = email.utils.formatdate(usegmt=True)
+
     release_content = (
         "Origin: GCB Repository\n"
         "Label: GCB\n"
         "Suite: stable\n"
         "Version: 1.0\n"
         "Codename: ios\n"
+        f"Date: {date_str}\n"
         "Architectures: iphoneos-arm64\n"
         "Components: main\n"
         "Description: GCB Mobile Telemetry and Diagnostics Repository\n"
